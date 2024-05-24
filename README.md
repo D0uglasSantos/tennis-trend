@@ -2,6 +2,10 @@
 
 ![Resultado final do projeto](public/images/preview/preview.png)
 
+> Olá, este é um projeto que fiz para começar a estudar next.js e tailwind. Espero que gostem!
+> 
+<h4 align="center"><a href="https://douglas-santos-portfolio.netlify.app/" target="blank">Clique para visitar o projeto</a></h4>
+
 ## Getting Started
 
 First, run the development server:
@@ -19,10 +23,6 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-> Olá, este é um projeto que fiz para começar a estudar next.js e tailwind. Espero que gostem!
-> 
-<h4 align="center"><a href="https://douglas-santos-portfolio.netlify.app/" target="blank">Clique para visitar o projeto</a></h4>
 
 ## 💼 Tecnologias utilizadas
 
