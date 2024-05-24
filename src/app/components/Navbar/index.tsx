@@ -1,4 +1,4 @@
-import logoNavbar from "../../../../public/images/logos/logoNavbar.svg";
+import logoNavbar from "../../../../public/images/logos/logo_tennis_pro_shop.svg";
 import { FaRegUser } from "react-icons/fa";
 import { FaRegHeart } from "react-icons/fa";
 import { LuShoppingCart } from "react-icons/lu";

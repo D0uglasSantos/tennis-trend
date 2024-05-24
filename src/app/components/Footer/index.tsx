@@ -1,3 +1,4 @@
+import Image from "next/image";
 import {
   AiOutlineTwitter,
   AiOutlineInstagram,
@@ -6,6 +7,7 @@ import {
 import { FaFacebookF } from "react-icons/fa";
 import { FaThreads } from "react-icons/fa6";
 import { MdLocationOn } from "react-icons/md";
+import Logo from "../../../../public/images/logos/logo_tennis_pro_shop.svg";
 
 const socialIcons = [
   { icon: AiOutlineTwitter, key: "twitter" },
@@ -28,7 +30,7 @@ const Footer = () => {
     <>
       <section className="bg-bg-green pt-12 px-12">
         <div className="flex flex-wrap justify-between pb-8">
-          <div className="flex justify-between gap-8 w-1/2">
+          <div className="flex justify-between gap-8 w-4/5">
             <div>
               <ul className="text-white text-sm font-semibold flex flex-col gap-2 uppercase cursor-pointer">
                 <li>Gift Cards</li>
@@ -74,6 +76,9 @@ const Footer = () => {
                   Sustainability
                 </li>
               </ul>
+            </div>
+            <div>
+              <Image src={Logo} alt="Logo" width={300} height={300} />
             </div>
           </div>
           <div className="flex gap-2">
