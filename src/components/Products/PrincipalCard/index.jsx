@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Image from "next/image";
+import jordanBlack from "../../../../public/images/products/jordan_black_promotion.png";
 
 const ProductCard = () => {
   const [activeColor, setActiveColor] = useState("#000");
   const [bgColor, setBgColor] = useState("#212121");
-  const [imgSrc, setImgSrc] = useState(
-    "https://github.com/anuzbvbmaniac/Responsive-Product-Card---CSS-ONLY/blob/master/assets/img/jordan_proto.png?raw=true"
-  );
+  const [imgSrc, setImgSrc] = useState(jordanBlack);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
@@ -38,7 +38,9 @@ const ProductCard = () => {
         {loading ? (
           <p>Loading...</p>
         ) : (
-          <img
+          <Image
+            width={864}
+            height={408}
             src={imgSrc}
             alt="Nike Jordan Proto-Lyte Image"
             className="relative w-[700px] transform -rotate-12 transition duration-[700ms]"

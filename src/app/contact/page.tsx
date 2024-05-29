@@ -38,8 +38,8 @@ const Contact = () => {
           <div className="animate-bounce">
             <Image
               src={Logo}
-              width={500}
-              height={500}
+              width={300}
+              height={300}
               alt="logo Tennis Trend"
             />
           </div>
