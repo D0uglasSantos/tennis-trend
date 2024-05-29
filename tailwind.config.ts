@@ -10,6 +10,8 @@ const config: Config = {
     extend: {
       backgroundImage: {
         banner: 'url("/images/banner.png")',
+        banner_about: "url(/images/banner_aboutUs.png)",
+        banner_contact: "url(/images/banner_contact.png)",
       },
       colors: {
         "bg-green": "#645F25",
