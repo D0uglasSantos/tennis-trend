@@ -1,4 +1,4 @@
-# Douglas Santos Portfolio (AINDA EM DESENVOLVIMENTO)
+# Tennis Trend 
 
 ![Resultado final do projeto](public/images/preview/preview.png)
 
