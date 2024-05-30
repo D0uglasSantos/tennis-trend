@@ -3,6 +3,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
 import jordanBlack from "../../../../public/images/products/jordan_black_promotion.png";
+import jordanRed from "../../../../public/images/products/jordan_red_promotion.png";
+import jordanOrange from "../../../../public/images/products/jordan_orange_promotion.png";
 
 const ProductCard = () => {
   const [activeColor, setActiveColor] = useState("#000");
@@ -75,13 +77,7 @@ const ProductCard = () => {
                   ? "ring-2 ring-black box-border  w-9 h-9"
                   : ""
               }`}
-              onClick={() =>
-                handleColorChange(
-                  "#000",
-                  "#212121",
-                  "https://github.com/anuzbvbmaniac/Responsive-Product-Card---CSS-ONLY/blob/master/assets/img/jordan_proto.png?raw=true"
-                )
-              }
+              onClick={() => handleColorChange("#000", "#212121", jordanBlack)}
             ></span>
             <span
               className={`inline-block relative cursor-pointer rounded-full w-[26px] h-[26px] top-2 mr-3 left-[10px] bg-[#D5212E] ${
@@ -89,13 +85,7 @@ const ProductCard = () => {
                   ? "ring-2 ring-[#7E021C] box-border w-9 h-9"
                   : ""
               }`}
-              onClick={() =>
-                handleColorChange(
-                  "#7E021C",
-                  "#bd072d",
-                  "https://github.com/anuzbvbmaniac/Responsive-Product-Card---CSS-ONLY/blob/master/assets/img/jordan_proto_red_black.png?raw=true"
-                )
-              }
+              onClick={() => handleColorChange("#7E021C", "#bd072d", jordanRed)}
             ></span>
             <span
               className={`inline-block relative cursor-pointer rounded-full w-[26px] h-[26px] top-2 mr-3 left-[10px] bg-[#F18557] ${
@@ -104,11 +94,7 @@ const ProductCard = () => {
                   : ""
               }`}
               onClick={() =>
-                handleColorChange(
-                  "#CE5B39",
-                  "#F18557",
-                  "https://github.com/anuzbvbmaniac/Responsive-Product-Card---CSS-ONLY/blob/master/assets/img/jordan_proto_orange_black.png?raw=true"
-                )
+                handleColorChange("#CE5B39", "#F18557", jordanOrange)
               }
             ></span>
           </p>
