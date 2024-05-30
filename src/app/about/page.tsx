@@ -42,7 +42,7 @@ const About = () => {
         </div>
         <div
           className=" flex items-center justify-center"
-          data-aos="fade-left"
+          data-aos="fade-up"
           data-aos-easing="linear"
           data-aos-duration="700"
         >
