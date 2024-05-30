@@ -1,4 +1,4 @@
-# Tennis Trend 
+# Tennis Trend Shop
 
 ![Resultado final do projeto](public/images/preview/preview.png)
 
